@@ -13,7 +13,7 @@ canvas{
     /* vertical-align: bottom; */
 }
 
-#navbarNav {
+#navbar-nav {
     background-color: rgb(32, 32, 49);
     color: white;
     font-family: 'Barlow', sans-serif;
@@ -81,10 +81,10 @@ canvas{
 }
 
 @media screen and (min-width: 400px) {
-    #navmain {
+    /* #navmain {
       padding-top: 0px;
       padding-bottom: 2%;
-    }
+    } */
     
 }
 
