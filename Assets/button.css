@@ -1,0 +1,31 @@
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.fill {
+    --color: black;
+    --hover: rgb(78, 62, 168);
+  }
+
+  button {
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    padding-left: 20px;
+    text-align: center;
+    margin-left: 15rem;
+  }
+
+  button {
+    color: var(--color);
+    transition: 0.25s;
+  }
+
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: white;
+    
+  }

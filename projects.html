@@ -1,52 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" href="Assets/favicon-32x32.png" type="image/x-icon">
-
-    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="shortcut icon" href="Assets/favicon-32x32.png" type="image/x-icon">
     
-    <!-- Bootstrap 4 CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
-
-
-    <title>Kevin J Townsley</title>
-  </head>
+        <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        
+        <!-- Bootstrap 4 CSS -->
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous"
+        />
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+        <script src="Assets/javascript.js"></script>
+    
+    
+        <title>Kevin J Townsley</title>
+      </head>
   <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg shadow-lg" id="navMain">
-        <a class="navbar-brand" href="index.html">KJT</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">KJT</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
 
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid">
@@ -67,11 +61,11 @@
               </div>
             </div>
             <div class="card sm-12">
-              <img src="Assets/TrainScheduler.PNG" class="card-img-top" alt="Train Scheduler">
+              <img src="Assets/NewsScraper.PNG" class="card-img-top" alt="News Scraper">
               <div class="card-body">
-                <h5 class="card-title">Train Scheduler</h5>
-                <p class="card-text">This site takes user input to build a train schedule.</p>
-                <a href="https://kjtownsley.github.io/HW7-Firebase/" target="_blank" class="btn ">Try it</a>
+                <h5 class="card-title">NBA News Scraper</h5>
+                <p class="card-text">News scraper that will pull NBA news from The New York Times. Built with MongoDB and Mongoose.</p>
+                <a href="https://nameless-taiga-94365.herokuapp.com/" target="_blank" class="btn ">Try it</a>
                 <p class="card-text"><small class="text-muted"></small></p>
               </div>
             </div>

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="Assets/favicon-32x32.png" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     
     <!-- Bootstrap 4 CSS -->
@@ -21,6 +23,8 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/button.css" />
+    <script src="Assets/javascript.js"></script>
 
 
     <title>Kevin J Townsley</title>
@@ -28,25 +32,15 @@
   <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg shadow-lg sm-12" id="navMain">
-        <a class="navbar-brand" href="index.html">KJT</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
+      <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">KJT</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-      </nav>
 
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid sm-12">
@@ -76,10 +70,7 @@
                   <a href="https://github.com/kjtownsley" target="_blank" class="card-link">Github</a>
                   <a href="https://www.linkedin.com/in/kevin-townsley-5317b790/" target="_blank" class="card-link">LinkedIn</a>
                 </div>
-              </div>
-
-
-
-         
+              </div>    
+       
   </body>
 </html>
