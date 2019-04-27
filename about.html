@@ -8,6 +8,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
     <!-- Bootstrap 4 CSS -->
     <link
@@ -21,6 +24,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+    <script src="Assets/javascript.js"></script>
 
 
     <title>Kevin J Townsley</title>
@@ -29,35 +33,27 @@
   
   <body>
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg shadow-lg" id="navMain">
-            <a class="navbar-brand" href="index.html">KJT</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
 
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">KJT</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+    <div class="wrapper">
         <!-- jumbotron -->
-        <div class="jumbotron jumbotron-fluid sm-12">
+        <div class="jumbotron jumbotron-fluid sm-12" id="aboutJumbo">
                 <div class="container">
                   <h1 class="display-4 About">About</h1>
-                  <h4 class="aboutDesc">I am an up and coming develper located in Salt Lake City, Utah. I worked 5 years in finance when I decided to make a change and enrolled in the University of Utah Coding Bootcamp. I love hiking, kayaking, exploring, and coding!</h4>
+                  <h4 class="aboutDesc">I am a programmer located in Salt Lake City, Utah. I worked 5 years in finance when I decided to make a change and enrolled in the University of Utah Coding Bootcamp. I love hiking, kayaking, exploring, and coding!</h4>
                   <p class="lead"></p>
                 </div>
-              </div>  
+              </div> 
+      </div> 
     
 </body>
 </html>
