@@ -5,7 +5,8 @@ body {
     padding: 0;
     overflow-x: hidden; 
     /* background-color: rgb(32, 32, 49); */
-    background-image: url(BackgroundBlackSand.jpg);
+    background-size: 100%;
+    background-image: url(https://images.unsplash.com/photo-1555315809-fec13e3e9502?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
 }
 
 canvas{
@@ -27,12 +28,6 @@ canvas{
     justify-content: center;
 }
 
-#aboutJumbo {
-    background: rgba(90, 90, 105, 0.5);
-    max-width: 1500px;
-
-}
-
 .jumbotron {
     background: transparent;
     color: white;
@@ -41,10 +36,11 @@ canvas{
 
 }
 
-.developer {
+.mainText {
     color: white;
     text-align: left;
-    margin-top: 10rem;
+    font-size: 84px;
+    width: 850px;
 }
 
 .emailForm {
@@ -64,6 +60,7 @@ canvas{
 .aboutDesc {
     width: 75%;
     font-size: x-large;
+    background: transparent;
 }
 
 .card {
@@ -71,6 +68,7 @@ canvas{
     color: white;
     border: black, 5px;
 }
+
 
 .card-img-top {
     height: 245px;
@@ -89,13 +87,12 @@ canvas{
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
-    display: block;
+    /* float: left;
+    display: block; */
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17pt;
+    font-size: 16pt;
   }
   
   /* Change the color of links on hover */
@@ -119,8 +116,30 @@ canvas{
 
 
 @media screen and (max-width: 600px){
+    body {
+        background-size: cover, 100%;
+    }   
+    
+    /* .mainJumbo {
+        width: 100%
+    } */
+
+    .mainText {
+        width: 100%;
+        font-size: 40pt;
+    }
+
+    .aboutDesc {
+        width: 100%;
+        font-size: 30pt;
+    }
     .card {
         width: 100%;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+    
     }
 }
 
@@ -140,7 +159,7 @@ canvas{
       top: 0;
     }
     .topnav.responsive a {
-      float: none;
+      float: left;
       display: block;
       text-align: left;
     }
